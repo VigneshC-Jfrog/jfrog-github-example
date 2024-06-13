@@ -5,7 +5,7 @@ on:
 
 permissions:
   actions: read # for detecting the Github Actions
-  id-token: write # for creating OIDC tokens for signing
+  id-token: write # for creating OIDC tokens for signings
   packages: write # for uploading attestations.
   contents: read
 jobs:
